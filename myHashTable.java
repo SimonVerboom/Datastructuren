@@ -6,10 +6,10 @@ public class myHashTable
 
 	public HashTable(int size){
 		this.size = size;
+		this.table = new String[size];
 	}
 
 	public int size(){
-		int size = 0;
 		return size;
 	}	
 
@@ -33,15 +33,15 @@ public class myHashTable
 			hash = Character.getNumericValue(c) * hash;
 		}
 
-		return 
+		return (hash % Character.getNumericValue(s.charAt(s.length-1)));
 	}
 
 	private String[] copyArray(String[] original){
-  	int length = original.length;
-  	String[] copy = new String[length * 2];
-  	for(int i = 0; i < length; i++){
-  		copy[i] = original[i];
-  	}
+	  	int length = original.length;
+	  	String[] copy = new String[length * 2];
+	  	for(int i = 0; i < length; i++){
+	  		copy[i] = original[i];
+	  	}
 
   	return copy;
   }

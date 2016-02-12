@@ -23,7 +23,7 @@ public class DS
     System.out.println("It took: " + sec);
   }
 
-  
+
   private float checkWords(String[] set, String path){
     File dir = new File(path);
     String line;
@@ -107,10 +107,6 @@ public class DS
   }
 }
 
-private HashTable my_table(){
-  HashTable<> my_table = new 
-}
-
-private int hashFunc(String key){
-
-}
+  private myHashTable readInTable(String filename){
+    
+  }
