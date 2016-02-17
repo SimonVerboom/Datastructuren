@@ -10,10 +10,12 @@ public class DS
   public static void main(String[] args)
   {
   	DS ds_eval = new DS();
-    ds_eval.arrayEval("wordlist.txt", "C:\\Users\\albert\\Documents\\Datastructuren\\Datastructuren\\samples\\Samples");
+    //ds_eval.arrayEval("wordlist.txt", "C:\\Users\\albert\\Documents\\Datastructuren\\Datastructuren\\samples\\Samples");
+    myHashTable hashTable = ds_eval.readInTable("wordlist.txt");
+    ds_eval.checkHash(hashTable, "C:\\Users\\albert\\Documents\\Datastructuren\\Datastructuren\\samples\\Samples");
   }
 
-  private void arrayEval(filename, sample_path){
+  private void arrayEval(String filename, String sample_path){
     String[] test = readInArray(filename);
     long startTime = System.nanoTime();
     checkWords(test, sample_path);
@@ -36,14 +38,18 @@ public class DS
 
           System.out.println(child);
           BufferedReader bf = new BufferedReader(new FileReader(child));
+          long startTime = System.nanoTime();
           while((line = bf.readLine()) != null){
             tot_count++;
             if(inArray(set, line)){
               cor_count++;
             }
           }
-          System.out.println("The score for " + child + " is:");
+          long endTime = System.nanoTime();
+          long duration = (endTime - startTime);
+          double sec = (double)duration / 1000000000.0;
           System.out.println((float) cor_count/tot_count);
+          System.out.println("It took: " + sec);
 
         }catch(IOException e){
           System.out.println("IT WENT HORRIBLY WRONG");
@@ -105,8 +111,58 @@ public class DS
 
     return false;
   }
-}
 
   private myHashTable readInTable(String filename){
-    
+    String line;
+    try{
+      BufferedReader bf = new BufferedReader(new FileReader(filename));
+      myHashTable hash = new myHashTable(10);
+      int t = 0;
+      while((line = bf.readLine()) != null){
+        t = hash.put(line);
+      }
+
+      return hash;
+    }catch(IOException e){
+      System.out.println("IT WENT HORRIBLY WRONG");
+    }
+
+    return null;
   }
+
+  private float checkHash(myHashTable set, String path){
+    File dir = new File(path);
+    String line;
+    File[] directoryListing = dir.listFiles();
+    if (directoryListing != null) {
+      for (File child : directoryListing) {
+        int cor_count = 0;
+        int tot_count = 0;
+        try{
+
+          System.out.println(child);
+          BufferedReader bf = new BufferedReader(new FileReader(child));
+          long startTime = System.nanoTime();
+          while((line = bf.readLine()) != null){
+            tot_count++;
+            if(set.contains(line)){
+              cor_count++;
+            }
+          }
+          long endTime = System.nanoTime();
+          long duration = (endTime - startTime);
+          double sec = (double)duration / 1000000000.0;
+          System.out.println((float) cor_count/tot_count);
+          System.out.println("It took: " + sec);
+        }catch(IOException e){
+          System.out.println("IT WENT HORRIBLY WRONG");
+        }
+      }
+    } else {
+      System.out.println("There is no directory here");
+      System.exit(0);
+    }
+
+    return 0;
+  }
+}
