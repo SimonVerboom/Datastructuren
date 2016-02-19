@@ -1,29 +1,70 @@
-public class myTrie
-{	
-	private myTrie[] letters;
-	public int size;
-	public myTrie currentNode; 
+public class myTrie{
+	TryNode root;
+	TryNode currentNode;
 
-
-	public myTrie(int size){
-		this.size = size;
-		this.letters = new myTrie[size];
+	public myTrie(){
+		this.root = new TryNode('-');
 	}
 
 	public void putWords(String word){
-		for(int i = 0; i < word.length(); i++){	
-			char c = word.charAt(i);	
-			int input = Character.getNumericValue(c);
+		currentNode = root;
+		for(int i = 0; i < word.length(); i++){
+			int input = Character.getNumericValue(word.charAt(i));
 			int standard = Character.getNumericValue('a');
-			myTrie nextTrie = new myTrie(26);
 			int index = standard - input;
-			if((index > 0) && (index < size)){
-				if(letters[index] == null){
-					letters[index] = nextTrie;
-					System.out.println("doing something!");
-					currentNode = nextTrie;
-				}
+			if(index < 0){
+				index = index * -1;
 			}
+ 			if(currentNode.children[index] == null){
+ 				TryNode nextTrie = new TryNode(word.charAt(i));
+ 				currentNode.children[index] = nextTrie;
+ 				currentNode = nextTrie;
+ 			}else{
+ 				currentNode = currentNode.children[index];
+ 			}
 		}
+
+		currentNode.leafNode = true;
+	}
+
+	public boolean contains(String word){
+		currentNode = root;
+		for(int i = 0; i < word.length(); i++){
+			int input = Character.getNumericValue(word.charAt(i));
+			int standard = Character.getNumericValue('a');
+			int index = standard - input;
+			if(index < 0){
+				index = index * -1;
+			}
+ 			if(currentNode.children[index] != null){
+ 				TryNode testNode = currentNode.children[index];
+ 				if(testNode.leafNode){
+ 					return true;
+ 				}
+ 				currentNode = testNode;
+ 			}else{
+ 				return false;
+ 			}
+		}
+
+		return false;
+	} 
+}
+
+
+
+
+
+class TryNode
+{	
+	public TryNode[] children;
+	public char data;
+	public boolean leafNode; 
+
+
+	public TryNode(char c){
+		this.data = c;
+		this.children = new TryNode[26];
+		this.leafNode = false;
 	}
 }   
