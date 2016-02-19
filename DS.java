@@ -10,9 +10,17 @@ public class DS
   public static void main(String[] args)
   {
   	DS ds_eval = new DS();
-    //ds_eval.arrayEval("wordlist.txt", "C:\\Users\\albert\\Documents\\Datastructuren\\Datastructuren\\samples\\Samples");
-    myHashTable hashTable = ds_eval.readInTable("wordlist.txt");
-    ds_eval.checkHash(hashTable, "C:\\Users\\albert\\Documents\\Datastructuren\\Datastructuren\\samples\\Samples");
+    System.out.println("Array Evalutation:");
+    System.out.println("***********");
+    ds_eval.arrayEval("wordlist.txt", "C:\\Users\\albert\\Documents\\Datastructuren\\Datastructuren\\samples\\Samples");
+    System.out.println("HashTable Evalutation:");
+    System.out.println("***********");
+    ds_eval.hashTableEval("wordlist.txt", "C:\\Users\\albert\\Documents\\Datastructuren\\Datastructuren\\samples\\Samples");
+  }
+
+  private void hashTableEval(String filename, String path){
+    myHashTable hashTable = readInTable(filename);
+    checkHash(hashTable, path);    
   }
 
   private void arrayEval(String filename, String sample_path){
@@ -48,6 +56,7 @@ public class DS
           long endTime = System.nanoTime();
           long duration = (endTime - startTime);
           double sec = (double)duration / 1000000000.0;
+          System.out.println("The accuracy is:");
           System.out.println((float) cor_count/tot_count);
           System.out.println("It took: " + sec);
 
@@ -116,7 +125,7 @@ public class DS
     String line;
     try{
       BufferedReader bf = new BufferedReader(new FileReader(filename));
-      myHashTable hash = new myHashTable(10);
+      myHashTable hash = new myHashTable(660000);
       int t = 0;
       while((line = bf.readLine()) != null){
         t = hash.put(line);
@@ -152,6 +161,7 @@ public class DS
           long endTime = System.nanoTime();
           long duration = (endTime - startTime);
           double sec = (double)duration / 1000000000.0;
+          System.out.println("The accuracy is:");
           System.out.println((float) cor_count/tot_count);
           System.out.println("It took: " + sec);
         }catch(IOException e){

@@ -2,6 +2,7 @@ public class myHashTable
 {	
 	private String[] table;
 	public int size; 
+	private int countElem;
 
 
 	public myHashTable(int size){
@@ -25,9 +26,9 @@ public class myHashTable
 	}
 
 	private boolean linearProbeCheck(int index, String[] words, String s){
-		while(true){
+		for(int i= 0; i < words.length; i++){
 			if((words[index] == null) || (!words[index].equals(s))){
-				index++;
+				index = (index + 1) % words.length;
 				if(words.length <= index){
 					return false;
 				} 
@@ -35,61 +36,70 @@ public class myHashTable
 				return true;
 			}
 		}
+
+		return false;
 	}
 
 	public int put(String s){
 		int index = hashFunc(s, table.length);
-		while(table.length <= index){
-			table = copyArray(table);
-		}
-		
 		if(table[index] != null){
 			index = linearProbe(index, table);
 		}
-
-		while(table.length <= index){
-			table = copyArray(table);
-		}
 		table[index] = s;
-		return (index);
+		countElem++;
+		int filled = countElem/table.length;
+		if(filled >= 0.7){
+			copyArray(table);
+		}
+		return index;
 	}
 	private int linearProbe(int index, String[] words){
 		while(true){
-			if(words.length > index){
-				if(words[index] != null){
-					index++;
-				}else{
-					return index;
-				}
+			if(words[index] != null){
+				index = (index + 1) % words.length;				
 			}else{
 				return index;
 			}
 		}
+
 	}
 
 	private int hashFunc(String s, int length){
-		int hash = 1;
+		int hash = 3;
 		for(int i = 0; i < s.length(); i++){
 			char c = s.charAt(i);
-			hash = Character.getNumericValue(c) + hash;
+			hash = Character.getNumericValue(c) * (hash * 17);
 		}
-		return (hash % (length + 1));
+		int index = (hash % (length));
+		if(index < 0){
+			index = index * -1;
+		}
+		return index;
 	}
 
 	private String[] copyArray(String[] original){
+		System.out.println("Copying...");
 	  	int length = original.length;
-	  	String[] copy = new String[length * 2];
 	  	size = length * 2;
+	  	String[] table = new String[size];
 	  	for(int i = 0; i < length; i++){
-	  		if(false){
-	  			hashFunc(original[i], size);	
+	  		if(original[i] != null){
+	  			int index = hashFunc(original[i], size);
+	  			if(table[index]  != null){
+	  				index = linearProbe(index, table);
+	  				table[index] = original[i]; 	
+	  			}else{
+	  				table[index] = original[i];
+	  			}
+
+
 	  		}else{
-	  			copy[i] = original[i];
+	  			table[i] = original[i];
 	  		}
 
 
 	  	}
-
-  	return copy;
-  }
+		System.out.println("Im done!");
+	  	return table;
+  	}
 }
