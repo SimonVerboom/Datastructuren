@@ -4,6 +4,12 @@ public class myHashTable
 	public int size; 
 	private int countElem;
 
+	/*
+	 * This is the definition of the Hash Table object, which is an array internally.
+	 * Given a string, the hash function computes the corresponding index in the array.
+	 * If this index is already filled, the string is placed is at the next free index.
+	 */
+
 
 	public myHashTable(int size){
 		this.size = size;
@@ -13,6 +19,9 @@ public class myHashTable
 	public int size(){
 		return size;
 	}	
+
+	// To check if a word is in the Hash Table, we first try to find it a the by hashFunc given index
+	// If it is not there, we probe until we find the word or realise it is not in the Hash Table.
 
 	public boolean contains(String s){
 		int index = hashFunc(s, table.length);
@@ -48,6 +57,11 @@ public class myHashTable
 		table[index] = s;
 		countElem++;
 		int filled = countElem/table.length;
+
+		// The Array is doubled in size when it is 70 percent full.
+		// This is done after research online revealed this to be a good measure,
+		// corroborated by one of the Teaching Assistants
+
 		if(filled >= 0.7){
 			copyArray(table);
 		}
@@ -63,6 +77,10 @@ public class myHashTable
 		}
 
 	}
+
+	// Computing the index, by multiplying the numeric value of every letter by two prime numbers
+	// Sources on the net recommended this, becasuse the chances of a collision decline.
+	// http://stackoverflow.com/questions/3613102/why-use-a-prime-number-in-hashcode
 
 	private int hashFunc(String s, int length){
 		int hash = 3;
@@ -99,7 +117,6 @@ public class myHashTable
 
 
 	  	}
-		System.out.println("Im done!");
 	  	return table;
   	}
 }
