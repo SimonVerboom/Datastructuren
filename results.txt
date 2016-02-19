@@ -1,0 +1,366 @@
+Array Evalutation:
+***********
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_0OXg@T=T55.txt
+The accuracy is:
+0.9974
+It took: 17260507993
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_10wsogiLdW=.txt
+The accuracy is:
+0.98635
+It took: 35528629938
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_15ONfIJ1D=g.txt
+The accuracy is:
+0.9838
+It took: 35305973171
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_18ywQoP^]I.txt
+The accuracy is:
+1.0
+It took: 16970156166
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_24rQ[WUNIhd.txt
+The accuracy is:
+0.96993333
+It took: 54516527757
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_26Jdo5Z3d_0.txt
+The accuracy is:
+0.9647667
+It took: 54813231101
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_3B2_2GC8[M.txt
+The accuracy is:
+0.9997
+It took: 17179692081
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_4s^U6a1^06.txt
+The accuracy is:
+1.0
+It took: 16363875384
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_8Lg2uNPd22[.txt
+The accuracy is:
+0.97073334
+It took: 55138590683
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_9TS_Fs4f17j.txt
+The accuracy is:
+0.9786
+It took: 36404231380
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_B6JH16JohH9.txt
+The accuracy is:
+0.9831
+It took: 35605739800
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_Do8D@6^MvZ.txt
+The accuracy is:
+0.9919
+It took: 17450456499
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_EB1^j@13=8c.txt
+The accuracy is:
+0.9887
+It took: 34948418942
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_H19_Uo81DhY.txt
+The accuracy is:
+0.9736
+It took: 44678530359
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_H2d^Fw29mjq.txt
+The accuracy is:
+0.95636666
+It took: 58134297465
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_L[11U3fYc_E.txt
+The accuracy is:
+0.98745
+It took: 35735960013
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_O4MBZ27gLgA.txt
+The accuracy is:
+0.9662667
+It took: 60335932900
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_ocBe18XVd0x.txt
+The accuracy is:
+0.9768
+It took: 37820945979
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_OONncoB728I.txt
+The accuracy is:
+0.96166664
+It took: 59598663410
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_OtVTk]9Fe4.txt
+The accuracy is:
+0.9894
+It took: 18507870758
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_o]_4D=12UBt.txt
+The accuracy is:
+0.9863
+It took: 38142150048
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_RoxM;UvI14@.txt
+The accuracy is:
+0.9856
+It took: 37384679467
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_SC`S212i2Od.txt
+The accuracy is:
+0.97496665
+It took: 57573661903
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_SZj^s2L20a1.txt
+The accuracy is:
+0.9718
+It took: 60087290166
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_uk4]KY7thf.txt
+The accuracy is:
+0.9985
+It took: 18271238259
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_Xef3p25N9oS.txt
+The accuracy is:
+0.96456665
+It took: 66448245956
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_YMJh]w2k5P.txt
+The accuracy is:
+1.0
+It took: 19196508719
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_[r23G7WAcjt.txt
+The accuracy is:
+0.97043335
+It took: 61831331129
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_]29pgao6lk.txt
+The accuracy is:
+0.9964
+It took: 19888023080
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample__in]Ot6R79.txt
+The accuracy is:
+0.9927
+It took: 20314308147
+HashTable Evalutation:
+***********
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_0OXg@T=T55.txt
+The accuracy is:
+0.9974
+It took: 681374685
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_10wsogiLdW=.txt
+The accuracy is:
+0.98635
+It took: 5771516448
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_15ONfIJ1D=g.txt
+The accuracy is:
+0.9838
+It took: 6798805905
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_18ywQoP^]I.txt
+The accuracy is:
+1.0
+It took: 82801083
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_24rQ[WUNIhd.txt
+The accuracy is:
+0.96993333
+It took: 24361840605
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_26Jdo5Z3d_0.txt
+The accuracy is:
+0.9647667
+It took: 13559003207
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_3B2_2GC8[M.txt
+The accuracy is:
+0.9997
+It took: 84477486
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_4s^U6a1^06.txt
+The accuracy is:
+1.0
+It took: 63069983
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_8Lg2uNPd22[.txt
+The accuracy is:
+0.97073334
+It took: 10395454637
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_9TS_Fs4f17j.txt
+The accuracy is:
+0.9786
+It took: 4921831265
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_B6JH16JohH9.txt
+The accuracy is:
+0.9831
+It took: 3909174846
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_Do8D@6^MvZ.txt
+The accuracy is:
+0.9919
+It took: 907733652
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_EB1^j@13=8c.txt
+The accuracy is:
+0.9887
+It took: 2600752072
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_H19_Uo81DhY.txt
+The accuracy is:
+0.9736
+It took: 5935229237
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_H2d^Fw29mjq.txt
+The accuracy is:
+0.95636666
+It took: 14799771547
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_L[11U3fYc_E.txt
+The accuracy is:
+0.98745
+It took: 3015772734
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_O4MBZ27gLgA.txt
+The accuracy is:
+0.9662667
+It took: 12596893350
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_ocBe18XVd0x.txt
+The accuracy is:
+0.9768
+It took: 5546504164
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_OONncoB728I.txt
+The accuracy is:
+0.96166664
+It took: 12756563099
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_OtVTk]9Fe4.txt
+The accuracy is:
+0.9894
+It took: 1232053180
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_o]_4D=12UBt.txt
+The accuracy is:
+0.9863
+It took: 3101066184
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_RoxM;UvI14@.txt
+The accuracy is:
+0.9856
+It took: 3225459610
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_SC`S212i2Od.txt
+The accuracy is:
+0.97496665
+It took: 8280906661
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_SZj^s2L20a1.txt
+The accuracy is:
+0.9718
+It took: 9536664701
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_uk4]KY7thf.txt
+The accuracy is:
+0.9985
+It took: 218830119
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_Xef3p25N9oS.txt
+The accuracy is:
+0.96456665
+It took: 12169034516
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_YMJh]w2k5P.txt
+The accuracy is:
+1.0
+It took: 66399269
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_[r23G7WAcjt.txt
+The accuracy is:
+0.97043335
+It took: 9979904539
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_]29pgao6lk.txt
+The accuracy is:
+0.9964
+It took: 472171486
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample__in]Ot6R79.txt
+The accuracy is:
+0.9927
+It took: 901769162
+Trie Evalutation:
+***********
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_0OXg@T=T55.txt
+The accuracy is:
+1.0
+It took: 22459533
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_10wsogiLdW=.txt
+The accuracy is:
+1.0
+It took: 12535821
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_15ONfIJ1D=g.txt
+The accuracy is:
+1.0
+It took: 19517701
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_18ywQoP^]I.txt
+The accuracy is:
+1.0
+It took: 7421080
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_24rQ[WUNIhd.txt
+The accuracy is:
+1.0
+It took: 23464519
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_26Jdo5Z3d_0.txt
+The accuracy is:
+1.0
+It took: 18986554
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_3B2_2GC8[M.txt
+The accuracy is:
+1.0
+It took: 5660428
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_4s^U6a1^06.txt
+The accuracy is:
+1.0
+It took: 6427211
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_8Lg2uNPd22[.txt
+The accuracy is:
+1.0
+It took: 23682623
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_9TS_Fs4f17j.txt
+The accuracy is:
+1.0
+It took: 10125563
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_B6JH16JohH9.txt
+The accuracy is:
+1.0
+It took: 10073390
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_Do8D@6^MvZ.txt
+The accuracy is:
+1.0
+It took: 7298770
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_EB1^j@13=8c.txt
+The accuracy is:
+1.0
+It took: 8093352
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_H19_Uo81DhY.txt
+The accuracy is:
+1.0
+It took: 18032885
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_H2d^Fw29mjq.txt
+The accuracy is:
+1.0
+It took: 14996970
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_L[11U3fYc_E.txt
+The accuracy is:
+1.0
+It took: 105917491
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_O4MBZ27gLgA.txt
+The accuracy is:
+1.0
+It took: 20594533
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_ocBe18XVd0x.txt
+The accuracy is:
+1.0
+It took: 8981589
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_OONncoB728I.txt
+The accuracy is:
+1.0
+It took: 14175447
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_OtVTk]9Fe4.txt
+The accuracy is:
+1.0
+It took: 3975899
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_o]_4D=12UBt.txt
+The accuracy is:
+1.0
+It took: 8036046
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_RoxM;UvI14@.txt
+The accuracy is:
+1.0
+It took: 10693488
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_SC`S212i2Od.txt
+The accuracy is:
+1.0
+It took: 14526123
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_SZj^s2L20a1.txt
+The accuracy is:
+1.0
+It took: 14805381
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_uk4]KY7thf.txt
+The accuracy is:
+1.0
+It took: 4673403
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_Xef3p25N9oS.txt
+The accuracy is:
+1.0
+It took: 19834592
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_YMJh]w2k5P.txt
+The accuracy is:
+1.0
+It took: 5427357
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_[r23G7WAcjt.txt
+The accuracy is:
+1.0
+It took: 18903161
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample_]29pgao6lk.txt
+The accuracy is:
+1.0
+It took: 4601984
+C:\Users\albert\Documents\Datastructuren\Datastructuren\samples\Samples\sample__in]Ot6R79.txt
+The accuracy is:
+1.0
+It took: 5851162
